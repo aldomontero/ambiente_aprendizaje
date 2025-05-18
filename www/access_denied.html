@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Error</title>
+
+<link rel="shortcut icon" href="img/favicon.ico" type="image/ico" />
+
+<style>
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 9pt; 
+}
+.window{
+	border-radius: 8px 8px 0px 0px;
+	-moz-border-radius: 8px 8px 0px 0px;
+	-webkit-border-radius: 8px 8px 0px 0px;
+	border: 2px solid #3CC;
+	background-color: #EFEBE9;
+}
+.title{
+	background-color: #3CC;
+	height: 25px;
+	padding-left: 4px;
+	text-align: left;
+}
+.descripcion{
+	background-color: white;
+	height: 40px;
+	line-height: 150%;
+	border-bottom: 1px inset #999;
+	padding: 15px 5px 14px 14px;
+	text-align: left;
+}
+.content{
+	padding: 10px 10px 10px 160px;
+	text-align: right;
+	height: 200px;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+</style>
+
+</head>
+<body style="background: white">
+
+<table width="100%" height="100%">
+<tr>
+	<td valign="middle" align="center">
+    <form id="form1" name="form1" method="post" action="sie.html">
+    <table class="window" width="400" cellspacing="0">
+    <tr>
+        <td class="title">Acceso denegado, operación cancelada
+        </td>
+    </tr>
+    <tr>
+        <td class="descripcion"><b>Error en permisos de usuario</b>
+        </td>
+    </tr>
+    <tr>
+        <td class="content" style="text-align: left; color: #C00; background: transparent url(img/delegate.png) -90px center no-repeat; vertical-align: middle">
+          Su nivel de acceso se reestringe a acceder a esta sección, porfavor no intente nevegar mediante url para evitarse estos mensajes, siga los botones de navegación que se ofrecen en su interfaz de usuario.<br /><br />
+          <input type="button" onclick="history.back()" value="Regresar" />
+        </td>
+    </tr>
+    </table>
+    </form>
+    </td>
+</tr>
+</table>
+
+</body>
+</html>

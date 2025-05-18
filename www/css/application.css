@@ -1,0 +1,108 @@
+/* CSS Document */
+@font-face{
+	font-family: ubuntu;
+	src: url(../fonts/Ubuntu-R.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: ubuntuBold;
+	src: url(../fonts/Ubuntu-B.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: ubuntuItalic;
+	src: url(../fonts/Ubuntu-I.ttf) format('truetype');
+}
+
+@font-face{
+	font-family: ubuntuBoldItalic;
+	src: url(../fonts/Ubuntu-BI.ttf) format('truetype');
+}
+
+/* INDEX */
+html{
+	overflow: auto;
+	height:  auto;
+}
+body{
+	font-family: ubuntu, Tahoma, Geneva, sans-serif; 
+	font-size: 10pt; 
+	height: 100%;
+}
+.error, .error_hide{
+	color: black;
+	background-color: #FFCECF
+}
+label.error, label.error_hide{
+	padding-left: 10px;
+	font-size: 12px;
+	color: red;
+	background-color: transparent;
+}
+
+p.nofound{
+	text-align: center;
+}
+/* - - - */
+ul.bar {
+	list-style: none; 
+}
+#name_columns{
+	position:absolute; 
+	left: 5px; 
+	right: 5px; 
+	background-color: #FFF;
+}
+table.list{
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+table.list td{
+	text-align: left;
+	border-bottom: 1px solid gray;
+}
+
+table.list tr.hs{
+	left: 0;
+	right: 0;
+}
+table.list th{
+	border-collapse: collapse;
+	text-align: center;
+	border-right: 2px inset white;
+	border-top: 2px inset white;
+	background-color: #D5EAFF;
+}
+table.list th a, table.list th a:visited{
+	font-weight: normal;
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+table.list th a:hover{
+	font-weight: normal;
+	text-decoration: underline;
+}
+table.list td.top{
+	text-align: center; 
+	background-color: #FDD;
+}
+
+
+table.list a, table.list a:visited{
+	padding: 2px;
+	display: inline-block;
+	position: static
+}
+table.list a:hover{
+	padding: 1px;
+	background-color: #CFF;
+	border: 1px solid #09F;
+}
+table.list a img{
+	display: compact;
+}
